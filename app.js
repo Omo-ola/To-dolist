@@ -134,8 +134,8 @@ function displayContent(Id,value){
         element.classList.add("lists");
         element.innerHTML = `<h4>${value}</h4>
             <div class="btns">
-                <button class="editBtn"><i class="fas fa-edit"></i>A</button>
-                <button class="deleteBtn"><i class="fas fa-trash"></i>B</button>
+                <button class="editBtn"><i class="fas fa-edit"></i></button>
+                <button class="deleteBtn"><i class="fas fa-trash"></i></button>
             </div>`;
             listContainer.appendChild(element);
             const editBtn = element.querySelector('.editBtn');
